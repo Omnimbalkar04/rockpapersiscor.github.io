@@ -1,0 +1,103 @@
+
+
+body{
+    /* margin: 0; */
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.container{
+   
+
+    width: 30em;
+    height: 30em;
+   
+    top: 15vh;
+    left: 50vh;
+    margin: 10px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    /* align-items: center; */
+  
+  
+}
+
+
+
+.rock-btn{
+    top: 8vh;
+    left: 20vh;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%; 
+    position: absolute;
+    color: transparent;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 3em white;
+    background-image: url('images/stone.png');
+    background-size: cover;
+    
+   
+
+}
+
+.paper-btn{
+    top: 8vh;
+    left: 60vh;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    color: transparent;
+    background-color: rgb(0, 81, 255);
+    box-shadow: 0 0 3em white;
+    background-image: url('images/paper.png');
+    background-size: cover;
+    rotate: 270deg;
+    
+   
+}
+
+.scissor-btn{
+    top: 45vh;
+    left: 40vh;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    color: transparent;
+    background-color: rgb(251, 255, 0);
+    box-shadow: 0 0 3em white;
+    background-image: url('images/scissor.png');
+    background-size: cover;
+    rotate: 270deg;
+    
+   
+}
+
+
+
+#game{
+   
+    left: 0px;
+    color: rgb(11, 226, 11);
+    display: flex;
+    justify-content: center;
+    position:relative;
+ 
+  column-gap: 140px;
+    
+   
+}
+
+
+
+
+
+/* .details{
+    height: 10vh;
+} */
+
